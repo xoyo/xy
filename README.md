@@ -1,8 +1,11 @@
-﻿**xoyo网页制作基础架构**
+﻿# 规范 standard
 
-包含4个主要分支
-
-* 规范 standard
-* 工具 tools
-* 系统 system
-* 流程 process
+ * 代码风格
+    * CSS代码规范
+    * JavaScript代码规范
+    * HTML代码规范
+    * 模块化命名规范
+ * 性能原则
+    * CSS性能原则
+    * JavaScript性能原则
+ * 易用性原则
