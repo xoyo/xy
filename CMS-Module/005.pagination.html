@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>005-pagination-分页</title>
+<style>
+/*S CMS pagination*/
+.pagination{font:normal 12px/21px Tahoma;}
+
+.pagination a:hover{color:#000;background-color:#DFDFDF;}
+.pagination a.current,
+.pagination a.current:hover{font-weight:700;color:#f00;}
+
+.pagination a{
+	display:-moz-inline-stack;display:inline-block;*display:inline;*zoom:1;
+	padding:0 10px;text-decoration:none;color:#333;vertical-align:middle;
+	border:1px solid #B0B0B0;
+	background-color:#F0F0F0;}
+/*E CMS pagination*/
+</style>
+</head>
+<body>
+
+<div class="pagination">
+	 共 14 页 第 1 页 <a class="current" href="#">1</a>
+	<a href="#">2</a>
+	<a href="#">3</a>
+	<a href="#">4</a>
+	<a href="#">5</a>
+	<span>...</span>
+	<a href="#">14</a>
+	<a href="#">下一页</a>
+</div>
+
+</body>
+</html>

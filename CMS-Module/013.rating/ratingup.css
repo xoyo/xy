@@ -1,0 +1,17 @@
+@charset "utf-8";
+/**
+* Name: 图排类评价
+* Author: charies
+* Date: 2010-11-15
+*/
+/*基础样式*/
+#RatingUp .Rp-up,#RatingUp .Rp-count{display:-moz-inline-stack;display:inline-block;*display:inline;*zoom:1;}
+#RatingUp .Rp-total{font-style:normal;}
+
+/*默认皮肤*/
+#RatingUp{font-size:12px;}
+#RatingUp .Rp-up,#RatingUp .Rp-total{color:red;text-decoration:none;}
+#RatingUp .Rp-up,#RatingUp .Rp-count{border:1px solid #CACACA;padding:4px 0;}
+#RatingUp .Rp-up{padding:4px 6px;}
+#RatingUp .Rp-count{padding:4px 4px 4px 16px;background:url(images/Rp-count.png) no-repeat 2px 50%;}
+#RatingUp .Rp-up:hover{background:url(images/Rm2.gif) no-repeat 0 0;}

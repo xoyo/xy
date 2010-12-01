@@ -1,0 +1,20 @@
+@charset "utf-8";
+/*! mingelz, 2010-9-2 18:05:11 */
+body,h1,h2,h3,h4,h5,h6,dl,dt,dd,ul,ol,li,th,td,p,blockquote,pre,form,fieldset,legend,input,button,textarea{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%}li{list-style:none}fieldset,img{border:0 none}table{border-collapse:collapse;border-spacing:0}q:before,q:after{content:""}abbr[title]{border-bottom:1px dotted;cursor:help}address,cite,dfn,em,var{font-style:normal}button,input,select,textarea{font-size:100%}a{text-decoration:none}body,button,input,select,textarea{font:12px/1 tahoma,arial,\5b8b\4f53,sans-serif}
+/* DO NOT modify above this line */
+
+/* global */
+body{margin:20px;width:600px;}
+legend{display:none;}
+/* tpl base */
+.tpl{margin:10px;border:1px solid #666;}
+.tpl .hd{border-bottom:1px solid #666;}
+.tpl .hd h2{font:700 16px/2 \5FAE\8F6F\96C5\9ED1,\9ED1\4F53;}
+	.field{padding:3px 0;}
+		.field label{display:-moz-inline-stack;display:inline-block;*display:inline;*zoom:1;width:100px;text-align:right;}
+		.field label i{margin:0 3px;color:#F00;font-weight:700;}
+		.field input{display:-moz-inline-stack;display:inline-block;*display:inline;*zoom:1;width:160px;height:18px;}
+	.msg{}
+		.msg-error{color:#F00;}
+		.msg-hint{color:#666;}
+		.msg-ok{color:#0F6;}

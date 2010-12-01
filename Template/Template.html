@@ -1,0 +1,511 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>011.template-活动类通用模板</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<!--登录（小）-->
+<div class="tpl tpl-login">
+	<div class="hd">
+		<h2>金山通行证</h2>
+	</div>
+	<div class="bd">
+		<div class="bd-container">
+			<form method="post" action="#">
+				<fieldset>
+					<legend>填写通行证账号与密码</legend>
+					<div class="msg msg-error">
+						<p>
+							错误提示
+						</p>
+					</div>
+					<div class="field field-usr txt">
+						<label for="">通行证：</label><input type="text"/><a href="#">注册</a>
+					</div>
+					<div class="field field-pwd txt">
+						<label for="">密码：</label><input type="password"/><a href="#">忘记密码？</a>
+					</div>
+					<div class="field field-scode txt">
+						<label for="">验证码：</label><input type="text"/><img src="#" alt="验证码，点击刷新" title="看不清？点击换一张"/>
+					</div>
+					<div class="field btn">
+						<span class="field-submit"><input type="submit" value="提交"/></span>
+					</div>
+				</fieldset>
+			</form>
+		</div>
+	</div>
+	<div class="ft">
+	</div>
+</div>
+<!--tpl-login-->
+<!--登录（大）-->
+<div class="tpl tpl-login">
+	<div class="hd">
+		<h2>金山通行证</h2>
+	</div>
+	<div class="bd">
+		<div class="bd-container">
+			<form method="post" action="#">
+				<fieldset>
+					<legend>填写通行证账号与密码</legend>
+					<div class="msg msg-error">
+						<p>
+							错误提示
+						</p>
+					</div>
+					<div class="field field-usr txt">
+						<label for="">通行证：</label><input type="text"/><a href="#">注册</a>
+					</div>
+					<div class="field field-pwd txt">
+						<label for="">密码：</label><input type="password"/><a href="#">忘记密码？</a>
+					</div>
+					<div class="field field-scode txt">
+						<label for="">验证码：</label><input type="text"/><img src="#" alt="验证码"/><a href="#">换一张</a>
+					</div>
+					<div class="field btn">
+						<span class="field-submit"><input type="submit" value="提交"/></span>
+					</div>
+				</fieldset>
+			</form>
+		</div>
+	</div>
+	<div class="ft">
+	</div>
+</div>
+<!--tpl-login-->
+<!--登录成功-->
+<div class="tpl tpl-login">
+	<div class="hd">
+		<h2>金山通行证</h2>
+	</div>
+	<div class="bd">
+		<div class="bd-container">
+			<h3>欢迎您！会员昵称</h3>
+			<p>
+				进入[<a href="#">个人中心</a>] [<a href="#">安全退出</a>]
+			</p>
+			<p>
+				您现在是：普通会员
+			</p>
+			<div class="lastLogin">
+				<p>
+					上次登录：2010-9-2 15:08:38
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="ft">
+	</div>
+</div>
+<!--tpl-login-->
+<!--发号-->
+<div class="tpl tpl-getcode">
+	<div class="hd">
+		<h2>领取激活码</h2>
+	</div>
+	<div class="bd">
+		<div class="bd-container">
+			<form>
+				<fieldset>
+					<div class="msg msg-error">
+						<p>
+							错误提示
+						</p>
+					</div>
+					<div class="field field-usr txt">
+						<label for="">通行证：</label><input type="text"/><a href="#">注册</a>
+					</div>
+					<div class="field field-pwd txt">
+						<label for="">密码：</label><input type="password"/><a href="#">忘记密码？</a>
+					</div>
+					<div class="field field-scode txt">
+						<label for="">验证码：</label><input type="text"/><img src="#" alt="验证码"/><a href="#">换一张</a>
+					</div>
+					<div class="field btn">
+						<span class="field-submit"><input type="submit" value="登录领取激活码"/></span>
+					</div>
+					<div class="register">
+						<p>
+							<span>没有金山通行证？</span><a href="#">马上注册</a>
+						</p>
+					</div>
+				</fieldset>
+			</form>
+		</div>
+	</div>
+	<div class="ft">
+		<a class="inquiry" href="#">查询</a>
+	</div>
+</div>
+<!--tpl-getcode-->
+<!--发号 登录成功/失败/未开始/已结束-->
+<div class="tpl tpl-getcode">
+	<div class="hd">
+		<h2>领取激活码</h2>
+	</div>
+	<div class="bd">
+		<div class="bd-container">
+			<div class="getcode-success">
+				<p>
+					恭喜您成功获得激活码，您的激活码是：
+				</p>
+				<p>
+					<strong>XXXXXXXXXXXX</strong>
+				</p>
+			</div>
+			<div class="getcode-failure">
+				<p>
+					很遗憾，没有获得激活码，<a href="#">再试一次</a>
+				</p>
+				<p>
+					激活码发放完毕
+				</p>
+				<p>
+					您已经获得激活码，不能再参与领取
+				</p>
+			</div>
+			<div class="getcode-comingsoon">
+				<p>
+					活动未开始，请耐心等待
+				</p>
+			</div>
+			<div class="getcode-closed">
+				<p>
+					活动已结束，查询您获得的激活码
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="ft">
+		<a class="inquiry" href="#">查询</a>
+	</div>
+</div>
+<!--tpl-getcode-->
+<!--报名信息-->
+<div class="tpl tpl-signup">
+	<div class="hd">
+		<h2>完善信息</h2>
+	</div>
+	<div class="bd">
+		<div class="bd-container">
+			<form>
+				<fieldset>
+					<div class="msg msg-hint">
+						<p>
+							为了获奖时及时与您联系，请填写以下信息（<i>*</i>为必填项）
+						</p>
+					</div>
+					<div class="field field-nickname txt">
+						<label for=""><i>*</i>您的昵称：</label><input type="text"/><span class="msg msg-error">错误信息提示</span>
+					</div>
+					<div class="field field-server slt">
+						<label for=""><i>*</i>游戏区服：</label>
+						<select>
+							<option>游戏区服</option>
+						</select>
+						<span class="msg msg-ok">正确信息提示</span>
+					</div>
+					<div class="field field-realname txt">
+						<label for=""><i>*</i>真实姓名：</label><input type="text"/>
+					</div>
+					<div class="field field-idnumber txt">
+						<label for=""><i>*</i>身份证号：</label><input type="text"/>
+					</div>
+					<div class="field field-age txt">
+						<label for="">年龄：</label><input type="text"/>
+					</div>
+					<div class="field field-address txt">
+						<label for="">联系地址：</label><input type="text"/>
+					</div>
+					<div class="field field-tel txt">
+						<label for=""><i>*</i>联系电话：</label><input type="text"/>
+					</div>
+					<div class="field field-email txt">
+						<label for=""><i>*</i>邮箱：</label><input type="text"/>
+					</div>
+					<div class="field field-qq txt">
+						<label for="">QQ：</label><input type="text"/>
+					</div>
+					<div class="field field-impression tar">
+						<label for=""><i>*</i>个人感言：</label><textarea></textarea><span class="msg msg-hint">最多200字</span>
+					</div>
+					<div class="field btn">
+						<span class="field-submit"><input type="submit" value="提交"/></span>
+						<span class="field-reset"><input type="reset" value="重填"/></span>
+					</div>
+				</fieldset>
+			</form>
+		</div>
+	</div>
+	<div class="ft">
+	</div>
+</div>
+<!--tpl-signup-->
+<!--个人信息-->
+<div class="tpl tpl-info">
+	<div class="hd">
+		<h2>个人信息</h2>
+	</div>
+	<div class="bd">
+		<div class="bd-container">
+			<ul>
+				<li><strong>昵称：</strong><span>用户名</span></li>
+				<li><strong>真实姓名：</strong><span>用户名</span></li>
+				<li><strong>联系电话：</strong><span>13800138000</span></li>
+				<li><strong>积分：</strong><span>123</span></li>
+				<li><strong>召集的玩家数量：</strong><span>123</span></li>
+				<li><strong>排名：</strong><span>123</span></li>
+				<li><strong>个人感言：</strong><span>用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名用户名</span></li>
+			</ul>
+		</div>
+	</div>
+	<div class="ft">
+	</div>
+</div>
+<!--tpl-info-->
+<!--邀请好友-->
+<div class="tpl tpl-invite">
+	<div class="hd">
+		<h2>邀请好友</h2>
+	</div>
+	<div class="bd">
+		<div class="bd-container">
+			<div class="msg msg-hint">
+				<p>
+					填写您想说的话，以下的内容将会和您的活动推广链接一起复制发送给您的好友！
+				</p>
+			</div>
+			<div class="field field-says txt btn">
+				<input class="inputbox" type="text"/><input class="preview" type="button" value="预览"/>
+			</div>
+			<div class="field field-send tar btn">
+				<h3>邀请链接</h3>
+				<textarea></textarea>
+				<input type="button" value="复制，发给朋友"/>
+			</div>
+		</div>
+	</div>
+	<div class="ft">
+	</div>
+</div>
+<!--tpl-invite-->
+<!--排行榜-->
+<div class="tpl tpl-rank">
+	<div class="hd">
+		<h2>排行榜</h2>
+	</div>
+	<div class="bd">
+		<div class="bd-container">
+			<table>
+			<colgroup>
+			<col class="col01"/>
+			<col class="col02"/>
+			<col class="col03"/>
+			</colgroup>
+			<thead>
+			<tr>
+				<th class="th01">排名</th>
+				<th class="th02">昵称</th>
+				<th class="th03">召集玩家数量</th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr class="top3">
+				<th>1</th>
+				<td>昵称</td>
+				<td>1000人</td>
+			</tr>
+			<tr class="top3">
+				<th>2</th>
+				<td>昵称</td>
+				<td>1000人</td>
+			</tr>
+			<tr class="top3">
+				<th>3</th>
+				<td>昵称</td>
+				<td>1000人</td>
+			</tr>
+			<tr>
+				<th>1</th>
+				<td>昵称</td>
+				<td>1000人</td>
+			</tr>
+			</tbody>
+			</table>
+		</div>
+	</div>
+	<div class="ft">
+	</div>
+</div>
+<!--tpl-rank-->
+<!--中奖名单-->
+<div class="tpl tpl-awardlist">
+	<div class="hd">
+		<h2>中奖名单</h2>
+	</div>
+	<div class="bd">
+		<div class="bd-container">
+			<table>
+			<colgroup>
+			<col class="col01"/>
+			<col class="col02"/>
+			<col class="col03"/>
+			</colgroup>
+			<thead>
+			<tr>
+				<th class="th01">排名</th>
+				<th class="th02">中奖用户</th>
+				<th class="th03">中奖名称</th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr class="top1">
+				<th>1</th>
+				<td>昵称</td>
+				<td>1000人</td>
+			</tr>
+			<tr class="top2">
+				<th>2</th>
+				<td>昵称</td>
+				<td>1000人</td>
+			</tr>
+			<tr class="top3">
+				<th>3</th>
+				<td>昵称</td>
+				<td>1000人</td>
+			</tr>
+			<tr>
+				<th>1</th>
+				<td>昵称</td>
+				<td>1000人</td>
+			</tr>
+			</tbody>
+			</table>
+		</div>
+	</div>
+	<div class="ft">
+		<a class="more" href="#">查看更多&raquo;</a>
+	</div>
+</div>
+<!--tpl-awardlist-->
+<!--投票单-->
+<div class="tpl tpl-poll">
+	<div class="hd">
+		<h2>投票标题</h2>
+	</div>
+	<div class="bd">
+		<div class="bd-container">
+			<form>
+				<fieldset>
+					<ul>
+						<li class="img"><a href="#" title=""><img src="#" alt="图片名称"/></a></li>
+						<li><em>昵称：</em>用户昵称</li>
+						<li><em>票数：</em>555</li>
+						<li><em>推荐人：</em>昵称昵称</li>
+						<li><em>游戏：</em>剑侠情缘</li>
+						<li><em>所在区服：</em>区服区服</li>
+						<li><em>推荐理由：</em>推荐理由推荐理由推荐理由推荐理由推荐理由推荐理由推荐理由推荐理由推荐理由推荐理由推荐理由</li>
+					</ul>
+					<div class="field btn">
+						<span class="field-submit"><input type="submit" value="投一票"/></span>
+					</div>
+				</fieldset>
+			</form>
+		</div>
+	</div>
+	<div class="ft">
+	</div>
+</div>
+<!--tpl-poll-->
+<!--留言-->
+<div class="tpl tpl-message">
+	<div class="hd">
+		<h2>留言</h2>
+	</div>
+	<div class="bd">
+		<div class="bd-container">
+			<form>
+				<fieldset>
+					<div class="field field-from txt">
+						<label for="">来自（昵称）：</label><input type="text"/><span class="msg msg-error">错误信息提示</span>
+					</div>
+					<div class="field field-server1 slt">
+						<label for="">所在区：</label>
+						<select>
+							<option>游戏区服</option>
+						</select>
+						<span class="msg msg-ok">正确信息提示</span>
+					</div>
+					<div class="field field-server2 slt">
+						<label for="">所在服：</label>
+						<select>
+							<option>游戏区服</option>
+						</select>
+						<span class="msg msg-ok">正确信息提示</span>
+					</div>
+					<div class="field field-to txt">
+						<label for="">送给（昵称）：</label><input type="text"/><span class="msg msg-error">错误信息提示</span>
+					</div>
+					<div class="field field-server3 slt">
+						<label for="">所在区：</label>
+						<select>
+							<option>游戏区服</option>
+						</select>
+						<span class="msg msg-ok">正确信息提示</span>
+					</div>
+					<div class="field field-server4 slt">
+						<label for="">所在服：</label>
+						<select>
+							<option>游戏区服</option>
+						</select>
+						<span class="msg msg-ok">正确信息提示</span>
+					</div>
+					<div class="field field-impression tar">
+						<label for="">个人感言：</label><textarea></textarea><span class="msg msg-hint">最多200字</span>
+					</div>
+					<div class="field btn">
+						<span class="field-submit"><input type="submit" value="提交"/></span>
+						<span class="field-reset"><input type="reset" value="重填"/></span>
+					</div>
+				</fieldset>
+			</form>
+		</div>
+	</div>
+	<div class="ft">
+		<a class="close" href="#">&times;</a>
+	</div>
+</div>
+<!--tpl-message-->
+<!--留言墙-->
+<div class="tpl tpl-popmsg">
+	<div class="hd">
+		<h2>电信二区白帝服的<strong>钱朵朵</strong></h2>
+	</div>
+	<div class="bd">
+		<div class="bd-container">
+			<div class="popmsg-detail">
+				<p>
+					好久没有和你去副本打酱油了，这么久了。。。
+				</p>
+			</div>
+			<div class="popmsg-inscription">
+				<p class="popmsg-from">
+					来自：电信二区白帝服的<strong>归云浪子</strong>
+				</p>
+				<p class="popmsg-time">
+					2010-9-2 17:53:58
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="ft">
+		<a class="close" href="#">&times;</a>
+	</div>
+</div>
+<!--tpl-popmsg-->
+</body>
+</html>
+

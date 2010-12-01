@@ -1,0 +1,26 @@
+@charset "utf-8";
+/**
+* Name: 投票系统 基础样式 和 默认皮肤
+* Author: charies
+* Date: 2010-11-12
+*/
+#Rating .R-expression{cursor:pointer;}
+#Rating .R-histogram{width:20px;margin:0 auto;}
+#Rating .Rating-bd td{text-align:center;vertical-align:bottom;}
+#Rating .R-vote{display:block;width:46px;height:46px;text-indent:-999em;overflow:hidden;}
+
+/* skin 默认模板 */
+#Rating .R-lead{background:url(images/R1.png) repeat-y 0 0;}
+#Rating .R-slow{background:url(images/R2.png) repeat-y 0 0;}
+#Rating a.R-modd-1{background:url(images/Rm1.png) no-repeat 0 0;}
+#Rating a.R-modd-2{background:url(images/Rm2.png) no-repeat 0 0;}
+#Rating a.R-modd-3{background:url(images/Rm3.png) no-repeat 0 0;}
+#Rating a.R-modd-4{background:url(images/Rm4.png) no-repeat 0 0;}
+#Rating a.R-modd-5{background:url(images/Rm5.png) no-repeat 0 0;}
+#Rating a.R-modd-1:hover{background:url(images/Rm1.gif) no-repeat 0 0;}
+#Rating a.R-modd-2:hover{background:url(images/Rm2.gif) no-repeat 0 0;}
+#Rating a.R-modd-3:hover{background:url(images/Rm3.gif) no-repeat 0 0;}
+#Rating a.R-modd-4:hover{background:url(images/Rm4.gif) no-repeat 0 0;}
+#Rating a.R-modd-5:hover{background:url(images/Rm5.gif) no-repeat 0 0;}
+
+/* skin 扩展 */

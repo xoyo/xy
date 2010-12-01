@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* calendar 2010-6-30 09:30 mingelz */
+
+/* Start calendar small *
+#calendar{position:relative;z-index:97;padding:5px;border:1px solid #000;width:190px;background-color:#EEE;font:12px/1 tahoma,arial;}
+#calendar h2{margin:0;padding:0;font:700 1.4em/2 \5FAE\8F6F\96C5\9ED1,\9ED1\4F53;text-align:center;}
+	#calMain{}
+	#calMain table{border-collapse:collapse;border-spacing:0;text-align:center;}
+		#calTHead{}
+		#calTBody{margin-top:5px;}
+		#calTHead th{border:1px solid #CCC;width:24px;background-color:#FFF;font:700 14px/1.8 simsun;}
+		#calTBody td{border:1px solid #BBB;width:24px;background-color:#F3F3F3;}
+		#calTBody td.thisMonth{cursor:pointer;}
+		#calTBody td.previousMonth,#calTBody td.nextMonth{height:28px;}
+		#calTBody td.sunday,#calTBody td.saturday{color:#C00;}
+		#calTBody td.today{color:#F90;background-color:#FFF;font-weight:700;}
+		#calTBody td.nodata{cursor:default;}
+	#calMain h3{margin:0;padding:0;font:400 14px/1.8 verdana;}
+	#calMain h3:hover{font-weight:700;}
+
+	#calTips{position:absolute;z-index:98;left:220px;top:10px;padding:5px 8px;border:1px solid #999;width:160px;background-color:#F3F3F3;opacity:.9;filter:alpha(opacity=90);}
+	#calTips h3{margin:0;padding:0;font:700 1.2em/1.5 verdana;}
+	#calTips ul{margin:0;padding:0;list-style:none;line-height:1.6;_zoom:1;}
+	#calTips ul li{padding-top:3px;}
+	#calTips ul li h4{margin:0;padding:0;font:400 1em/1.5 tahoma;}
+	#calTips ul li h4 sup{color:#F00;vertical-align:super;letter-spacing:1px;}
+	#calTips ul li a{color:#C60;_zoom:1;}
+	#calTips #calTipsCloseBtn{position:absolute;z-index:99;right:1px;top:1px;display:block;width:18px;height:18px;overflow:hidden;color:#E00;text-align:center;font:400 18px/18px tahoma;text-decoration:none;outline:0 none;}
+	#calTips #calTipsCloseBtn:hover{color:#F00;font-weight:700;}
+
+	#calError{color:#F00;font:700 1.4em/2 verdana;}
+/* End calendar small */
+
+/* ---------------------------------------------------------------------------------------------------------------------------- */
+
+/* Start calendar big */
+#calendar{position:relative;z-index:97;padding:5px;border:1px solid #000;width:190px;background-color:#EEE;font:12px/1 tahoma,arial;}
+#calendar h2{margin:0;padding:0;font:700 1.4em/2 \5FAE\8F6F\96C5\9ED1,\9ED1\4F53;text-align:center;}
+	#calMain{}
+	#calMain table{border-collapse:collapse;border-spacing:0;text-align:center;}
+		#calTHead{}
+		#calTBody{margin-top:5px;}
+		#calTHead th{border:1px solid #CCC;width:24px;background-color:#FFF;font:700 14px/1.8 simsun;}
+		#calTBody td{border:1px solid #BBB;width:24px;background-color:#F3F3F3;}
+		#calTBody td.thisMonth{cursor:pointer;}
+		#calTBody td.previousMonth,#calTBody td.nextMonth{height:28px;}
+		#calTBody td.sunday,#calTBody td.saturday{color:#C00;}
+		#calTBody td.today{color:#F90;background-color:#FFF;font-weight:700;}
+		#calTBody td.nodata{cursor:default;}
+	#calMain h3{margin:0;padding:0;font:400 14px/1.8 verdana;}
+	#calMain h3:hover{font-weight:700;}
+
+	#calTips{position:absolute;z-index:98;left:220px;top:10px;padding:5px 8px;border:1px solid #999;width:200px;background-color:#F3F3F3;opacity:.9;filter:alpha(opacity=90);}
+	#calTips h3{margin:0;padding:0;font:700 1.2em/1.5 verdana;}
+	#calTips ul{margin:0;padding:0;list-style:none;line-height:1.6;_zoom:1;}
+	#calTips ul li{padding:3px 0;border-top:1px solid #CCC;overflow:hidden;zoom:1;}
+	#calTips ul li h4{margin:0;padding:0;height:18px;overflow:hidden;font:400 1em/1.5 tahoma;}
+	#calTips ul li h4 sup{color:#F00;vertical-align:super;letter-spacing:1px;}
+	#calTips ul li a{color:#C60;_zoom:1;}
+	#calTips ul li div,#calTips ul li p{display:none;}
+	#calTips ul li.current h4{float:right;width:120px;}
+	#calTips ul li.current div{display:block;padding:1px;float:left;width:70px;}
+	#calTips ul li.current div a{display:block;width:70px;height:70px;}
+	#calTips ul li.current div img{display:block;border:0 none;width:70px;height:70px;}
+	#calTips ul li.current p{display:block;float:right;margin:0;width:120px;height:80px;overflow:hidden;}
+
+	#calError{color:#F00;font:700 1.4em/2 verdana;}
+/* End calendar big */
+
+/* ---------------------------------------------------------------------------------------------------------------------------- */
+
+/* Start calendar list *
+#calendar{position:relative;z-index:97;padding:5px;border:1px solid #000;width:190px;background-color:#EEE;font:12px/1 tahoma,arial;}
+#calendar h2{margin:0;padding:0;font:700 1.4em/2 \5FAE\8F6F\96C5\9ED1,\9ED1\4F53;text-align:center;}
+	#calMain{}
+	#calMain ul{display:inline-block;margin:0;padding:0;list-style:none;}
+	#calMain ul li{float:left;display:inline;margin:0 3px 3px 0;padding:0;width:20px;height:20px;}
+	#calMain ul li a{display:block;width:20px;}
+	#calMain ul li a img{display:block;border:0 none;width:20px;text-decoration:none;}
+	#calMain ul li a:hover{position:absolute;margin:-10px;width:40px;text-decoration:none;}
+	#calMain ul li a:hover img{width:40px;}
+
+	#calTips{position:absolute;z-index:98;left:200px;top:10px;padding:5px 8px;border:1px solid #999;width:220px;background-color:#F3F3F3;opacity:.9;filter:alpha(opacity=90);}
+	#calTips ul{margin:0;padding:0;list-style:none;line-height:1.8;}
+	#calTips ul li{padding-top:3px;}
+	#calTips ul li h4{margin:0;padding:0;font:700 1em/1.5 tahoma;}
+	#calTips ul li h4 sup{color:#F00;vertical-align:super;letter-spacing:1px;}
+	#calTips ul li p{margin:0;}
+
+	#calError{color:#F00;font:700 1.4em/2 verdana;}
+/* End calendar list */
+

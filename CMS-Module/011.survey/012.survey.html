@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>012-survey-调查平台代码</title>
+<style>
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+fieldset,img{border:0;}
+ul{list-style:none;}
+h1,h2,h3,h4,h5,h6,.textarea{font-weight:400;font-size:100%;}
+table{border-collapse:collapse;border-spacing:0;empty-cells:show;text-align:left;font-size:inherit;}
+body{font-size:12px;font-size-adjust:none;font-style:normal;font-variant:normal;font-weight:400;line-height:20px;text-align:left;}
+*{margin:0;padding:0;}
+i{color:red;margin:0 5px;}
+em,i{font-style:normal;font-size:14px;}
+legend{display:none;}
+.mid{text-align:center;}
+.title h2{font-size:1.5em;font-weight:700;}
+.title h3{font-size:1.2em;}
+.intro{border:1px dashed #999;padding:.5em;margin:1em 0;}
+.textarea{width:20em;height:5em;margin:0 0 2em;}
+.submit{margin:1em 0 0;}
+.warp{margin:0 0 1em;}
+</style>
+</head>
+<body>
+
+<div id="warp">
+	<div class="title mid">
+		<h2>表单调查名称</h2>
+		<h3>副标题</h3>
+	</div>
+	<div class="intro">
+		<p>
+			描述
+		</p>
+	</div>
+	<div class="content">
+		<form action="#">
+			<fieldset>
+				<legend>调查</legend>
+				<div class="warp">
+					<ul>
+						<li>1.题目1（单选）<i>*</i></li>
+						<li>描述</li>
+						<li><input type="radio">单选1</li>
+						<li><input type="radio">单选2</li>
+						<li><input type="radio">单选3</li>
+					</ul>
+				</div>
+				<div class="warp">
+					<ul>
+						<li>2.题目2（多选）<i>*</i><span style="color:#1D72F8;">[可以选择1-3项]</span></li>
+						<li>描述</li>
+						<li><input type="checkbox">多选1</li>
+						<li><input type="checkbox">多选2</li>
+						<li><input type="checkbox">多选3</li>
+					</ul>
+				</div>
+				<div class="warp">
+					<ul>
+						<li>3.题目3（文本域）<i>*</i></li>
+						<li>描述</li>
+						<li><textarea class="textarea" style="width:400px;"></textarea></li>
+					</ul>
+				</div>
+				<div class="warp">
+					<ul>
+						<li>4.题目4（文本框）</li>
+						<li>描述</li>
+						<li><input type="text" style="400px"></li>
+					</ul>
+				</div>
+				<div class="warp">
+					<ul>
+						<li>5.题目5（文件上传）</li>
+						<li>描述</li>
+						<li><input type="file" style="width:400px;"></li>
+					</ul>
+				</div>
+				<p class="mid">
+					<input class="submit" type="submit" value="提交">
+					<input class="submit" type="button" value="查看结果">
+				</p>
+			</fieldset>
+		</form>
+	</div>
+</div>
+
+</body>
+</html>
