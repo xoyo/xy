@@ -1,27 +1,29 @@
-**CMS通用模板**
 
-* 001.crumbs_导航
+CMS通用模板 —— CMS-Module
+============================
 
-* 002.list_列表
+* 001.crumbs       —— 导航
 
-* 003.main_content_正文
+* 002.list         —— 列表
 
-* 004.commentPart_评论
+* 003.main_content —— 正文
 
-* 005.pagination-分页
+* 004.commentpart  —— 评论
 
-* 006.ImgGallery-图片列表
+* 005.pagination   —— 分页
 
-* 007.ImgSearch-图文列表
+* 006.imggallery   —— 图片列表
 
-* 008.comment_warp-盖楼回复
+* 007.imgsearch    —— 图文列表
 
-* 009.social-分享
+* 008.comment_warp —— 盖楼回复
 
-* 010.VideoList-视频列表
+* 009.social       —— 分享
 
-* 011.survey-调查平台
+* 010.videolist    —— 视频列表
 
-* 012.calata-日历
+* 011.survey       —— 调查平台
 
-* 013.rating-评分系统
+* 012.calata       —— 日历
+
+* 013.rating       —— 评分系统
