@@ -18,6 +18,8 @@
     * jsPacker — *JavaScript压缩* http://dean.edwards.name/packer/
     * Closure Compiler — *JavaScript压缩*
     * jsbeautifier — *JavaScript格式化* http://jsbeautifier.org/
+ * Flash
+    * Apparat — *Flash优化* http://code.google.com/p/apparat/
  * 性能测试
     * Yslow — *Firebug插件*
  * 其他工具
