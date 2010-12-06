@@ -26,3 +26,5 @@ CMS通用模板 —— CMS-Module
 * 012.calata       —— 日历
 
 * 013.rating       —— 评分系统
+
+* 014.starbox      —— 星级评分
