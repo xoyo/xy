@@ -50,6 +50,7 @@
 * A级
  	* IE8
  	* IE7
+ 	* IE6
  	* Chrome6
  	* Firefox3.6
 
