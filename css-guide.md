@@ -1,4 +1,3 @@
-
 # CSS代码规范 —— css_guide
 
 * ID 和 Class命名遵守 —— **通用约定 common-conventions**)  
@@ -42,7 +41,7 @@
 	
 	> ** .selector{zoom:1;} **  
 
-* 绝对不要再CSS中使用“*”选择符  
+* 绝对不要在CSS中使用“*”选择符  
 
 
 # CSS浏览器支持标准  
