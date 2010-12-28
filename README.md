@@ -9,4 +9,4 @@
     * 活动通用模板 —— Template
  * 测试环境
     * IETester — http://www.my-debugbar.com/wiki/IETester/HomePage
-    * VMware Workstation — 虚拟主机
+    * VMware Workstation — 虚拟机
